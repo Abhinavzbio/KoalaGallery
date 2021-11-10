@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import ImageView from "../../Components/imageView/imageView.component";
-import "./showDetails.style.css";
+// import "./showDetails.style.css";
 
 class ShowDetails extends Component {
 
