@@ -21,7 +21,7 @@ class App extends Component {
 
   render() {
     const { data } = this.state;
-    console.log("props app" , this.props)
+ 
     return (
       <Switch>
         <Route exact path='/' render={()=> <HomePage images={data} />} />
