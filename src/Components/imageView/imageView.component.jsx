@@ -4,17 +4,12 @@ import BackIcon from "../../assests/svg/backbutton.svg"
 import "./imageView.style.css";
 
 class ImageView extends Component {
-  // constructor(props){
-  //   super(props)
-  //   this.state = {
-  //     showDetails: false,
-  //   }
-  // }
+ 
   render() {
     const {image, history } = this.props;
-    console.log("props imageview", image)
+   
     const data = image[0].data;
-    // const {showDetails} = this.state
+    
     return (
       <div className="image-container" >
         <div className="subRedditDetails">
