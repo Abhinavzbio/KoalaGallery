@@ -1,0 +1,10 @@
+
+    .heading {
+        width: 85vw;
+        font-size: 36px;
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: left;
+        margin: auto;
+        border-bottom: solid 0.5px white ;
+        color: white;
+    }

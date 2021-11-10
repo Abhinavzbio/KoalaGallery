@@ -1,0 +1,19 @@
+.searchContainer {
+  width: 85vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.search {
+  
+  -webkit-appearance: none;
+  border: solid 0.2px ;
+  outline: none;
+  padding: 10px;
+  width: 350px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  background-color: #252431;
+  color: white;
+}

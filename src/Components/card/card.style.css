@@ -1,0 +1,31 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color:#252431;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  height: 300px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 40%;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 200;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.877);
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
